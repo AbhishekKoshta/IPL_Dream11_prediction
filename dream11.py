@@ -58,7 +58,7 @@ bfieldScore = data[(data["bowler"]==PlayerName) & (data["dismissal_kind"]=="bowl
 dr11Score = RunPlayer*0.5+Four_byPlayer*0.5+Six_byPlayer+bonusScore + fieldScore + penaltyScore
 print ("batsman:",PlayerName,"Runs",RunPlayer,"Balls played" ,bowlsPlayed,"4s",Four_byPlayer, "6s",Six_byPlayer,"Strike Rate",SR,"\nDream11 Score", dr11Score)
 
-Match_id.append(match_id)
+Match_id.append(mid)
 Name.append(PlayerName)
 Runs.append(RunPlayer)
 
