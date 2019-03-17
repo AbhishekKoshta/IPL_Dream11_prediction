@@ -8,6 +8,7 @@ print ("Please choose a player from the above array ")
 
 # For a single match
 for i in range(len(data)):
+# for i in range(len(data)):
 	if data['match_id'][i]==1:
 		# Runs scored by a player
 		PlayerName = "CH Gayle"

@@ -4,7 +4,7 @@ import pandas as pd
 # data = pd.read_csv('basemodel.csv')
 data = pd.read_csv('deliveries.csv')
 
-## Get all the players who batted in a match 
+## Get all the players who batted in a match
 print (data["batsman"].unique())
 print ("Please choose a player from the above array ")
 
